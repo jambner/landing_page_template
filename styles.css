@@ -19,6 +19,7 @@ h1 {
     background-color:#1F2937;
     border: none;
     background: none;
+    cursor: pointer;
 
 }
 .toplist {
@@ -26,6 +27,60 @@ h1 {
     margin: 0;
     padding: 0;
 }
+
+/*section 1*/
+.section1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    height: 500px;
+    margin: auto;
+}
+
+h2 {
+    font-size: 48px;
+    color: #F9FAF8;
+    width: 300px;
+    font-weight: extra-bold;
+    padding: 1%;
+    
+
+}
+
+.h2subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+.introimage {
+    width: fit-content;
+    height: 300px;
+    margin: 30px;
+}
+
+.signup {
+    background-color: #3882F6;
+    color: #FFFFFF;
+    margin: 5%;
+    border: #3882F6;
+    height: 40px;
+    font-size: 20px;
+    width: 140px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.signup:active {
+    background-color: #4c84dd;
+}
+
+/*section-2
+.section2 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+*/
 
 ul {
     list-style-type: none;
