@@ -5,72 +5,67 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="styles.css">
         <title>Landing Page</title>
-            <div class="header">
+            <div class="topheader">
             <h1>Header Logo</h1>
                 <div>
                     <ul class="toplist">
-                        <li><button class="toplinks">header link one</button></li>
-                        <li><button class="toplinks">header link two</button></li>
-                        <li><button class="toplinks">header link three</button></li>
+                        <li><button class="toplinks">About</button></li>
+                        <li><button class="toplinks">Gallery</button></li>
+                        <li><button class="toplinks">Contact me</button></li>
                     </ul>
                 </div>
             </div>
 
         </head>
+        <body>
+        <div class="main">
 
-            <body>
-                <!--section one start-->
-                <div class="section1">
-                    <div>
-                        <h2>This website is awesome</h2>
-                        <p class="h2subtext">This website has some subtext that goes here under the main 
-                        title. It's smaller font and the color is lower contrast
-                        </p>
-                        <button class="signup">Sign up</button>
-                    </div>
+            <div class="section" id="about">
+                <div class="inside-column">
+                    <div class="module-diptych">
+                        <div class="container" id="text-content">
+                            <h2>This is Lelo.</h2>
+                            <p>Blulp Blulp Blulp</p>
+                            <form action="https://ko-fi.com/oreru">
+                                <button type="submit">Buy me a Coffee</button>
+                            </form>
 
-                    <div>
-                        <img class="introimage" src="../landing_page_template/images/carsmeetup.jpeg" alt="placeholder for image">
+                        </div>
+                        <div class="container" id="image">
+                            <img id="introimage" src="../landing_page_template/images/firstimage.png" alt="Blup blup blup">
+
+
+                        </div>
+
+
                     </div>
                 </div>
-                    <!--section one end-->
-                    <!--section two start-->
-                    <div class="section2">
-                        <h3>Some random information.</h3>
-                        <div> <!--order of images-->
-                            <ul>
-                                <li><img src="" alt="image1"> <p>this is some subtext under an illustration or image</p></li>
-                                <li><img src="" alt="image2"> <p>this is some subtext under an illustration or image</p></li>
-                                <li><img src="" alt="image3"> <p>this is some subtext under an illustration or image</p></li>
-                                <li><img src="" alt="image4"> <p>this is some subtext under an illustration or image</p></li>
-                            </ul>
-                        </div>
-                    </div>
-                <!--section two end-->
-                        <!--section three start-->
 
-                        <div>
-                            <div>
-                                <p>This is an inspiring quote, or testimonial from a customer. Maybe it's just filling space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
-                            </div>
-                            <div>
-                                <p>-Thor, God of Thunder</p>
-                            </div>
-                        </div>
-                        <!--section three end-->
-                        <!--section four start-->
-                            <div>
-                                <div>
-                                   <div>
-                                    <h4>Call to action! It's time!</h4>
-                                    <p>Sign up for our product by clicking that button over there!</p>
 
-                                   </div> 
-                                   <div>
-                                    <button>Sign up</button>
-                                   </div>
-                                </div>
-                            </div>
+            </div>
+
+            <div class="section" id="Gallery">
+                <div class="inside-column">
+                    <h2>Gallery</h2>
+                </div>
+
+            </div>
+
+            <div class="section" id="quote">
+                <div class="inside-column">
+                    <h2>Quote</h2>
+                </div>
+
+            </div>
+
+            <div class="section" id="contact">
+                <div class="inside-column">
+                    <h2>Contact</h2>
+                </div>
+
+            </div>
+        </div>
+
 
 
 
@@ -80,9 +75,9 @@
             </body>
 
     <footer>
-        <div>
-            <p>Copyright The Odin Project 2021</p>
-        </div>
+            <div class="inside-column">
+                <h2>Made by Jambner</h2>
+            </div>
 
         </footer>
 
