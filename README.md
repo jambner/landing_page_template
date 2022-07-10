@@ -11,6 +11,10 @@ However one thing that I will fix on this project if I wanted to keep on going w
 
 Sources:
 
+First Section Background: https://twitter.com/oreru_7/status/1514628363767660545
+
+Third Section Background: https://twitter.com/oreru_7/status/1523304262192680962?s=20&t=aIfbSnPF2BaBo6BpEl9RYg
+
 Fan Art: https://twitter.com/oreru_7/status/1542789417387323393
 
 Timelapses: https://twitter.com/oreru_7/status/1516321320036085766
