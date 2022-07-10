@@ -43,26 +43,21 @@ body {
 
 .main {
     flex-grow: 1; /*stretches the page out when needed to*/
-    border: 4px solid pink;
+    background-color: rgb(247, 242, 242);
 }
 
 
 .section{
-    border: 4px solid lime;
+    border-top:3px #202020;
+    border-bottom:3px #202020;
     min-height: 200px;
 }
 
 .inside-column {
     display: block;
-    border: 4px solid orange;
     padding: 10px;
     
 }
-
-.container {
-    border: 4px solid yellow;
-}
-
 img {
     display: block;
     width: 100%;
@@ -99,13 +94,23 @@ button:active {
     color: #f9faf8;
 }
 
+h2 {
+    font-family: 'In_alphabet', sans-serif;
+    font-size: 35px;
+                                                
+}
+
+.bio{
+    padding: 4px;
+    font-family: 'In_alphabet', sans-serif;
+    font-size: 20px;
+
+}
 
 .module-diptych {
     display: block;
 }
 
-/*.container #img {
-}*/
 
 .container #text-content {
     display: block;
@@ -114,7 +119,7 @@ button:active {
 @media (min-width:700px) {
     .module-diptych {
         display: flex;
-        flex-direction: row-reverse;
+        flex-direction: row;
         gap: 20px;
     }
     /*when the screen is strinked it'll move the image to the bottom.*/
@@ -129,38 +134,58 @@ button:active {
 /*section two*/
 
 
+.inside-column#headtitle {
+    font-size: 50px;
+    text-align: center;
+    margin: 100px;
+    
+    
+
+                                                
+}
+p {
+    font-family: 'rolina', sans-serif;
+    font-size: 50px;
+    color: #E5E7EB;
+}
+
+.section#Gallery {
+    background-image: linear-gradient(rgb(247, 242, 242),rgb(185, 181, 181)); 
+}
 
 .module-grid {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    border: 4px solid brown;
     gap: 20px;
-    padding: 100px;
-    
+    padding: 50px;    
 }
 
 
 
 
 .container#creation {
+    height: fit-content;
+    border:#111111;
+    background-color: #202020;
     width: fit-content;
-    padding: 0 4px;
+    padding: 3px 4px;
     display: inline-block;
     text-align: center;
     box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
 }
 
 
 
 .creationimg {
-    width: 300px;
-    height: 300px;
+    width: 310px;
+    height: 310px;
     box-sizing: content-box;
-    object-fit: contain;
-    border: 4px solid #3882F6;
-    border-radius: 5px;
+    object-fit: fill;
+    border-radius: 20px;
 
 }
 
@@ -177,6 +202,56 @@ button:active {
 }
 
 /*SECTION 3*/
+.section3 {
+    background-image: url(/images/section3bkg.jpeg);
+    background-size: cover;
+    object-fit: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+    border: 4px solid lime;
+}
+
+
+.module-quote {
+    border: 4px solid brown;
+    justify-content: center;
+    text-align: center;
+}
+
+/*SECTION 4*/
+.section#contact{
+    background-image: linear-gradient(rgb(247, 242, 242),rgb(185, 181, 181));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.module-contact {
+    border: 4px solid purple;
+    padding: 10px;
+    border-radius: 10px;
+    color: #f9faf8;
+    margin: 100px;
+    background-color: #202020;
+
+}
+.contact_hdg {
+    text-align: center;
+}
+
+
+.container#button {
+    justify-content: center;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+
 
 
 
