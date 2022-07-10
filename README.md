@@ -1,40 +1,9 @@
-# landing_page_template
-A Landing Page Template using HTML &amp; CSS
+A small website using HTML and CSS of a friend.
 
-The page will conist of 5 sections:
+It was a really fun project even though it took a few days for me to get through it.
+This reminded me to plan out the layout of the website before anything else either using gimp or paint.net and use borders color to seperate your divs! Using the border colors helped me visually what was going on in the website and helped me what css tools are used for like:
+-Margin
+-Padding
+-Flex rules
 
-Header:
-Has Header Logo/ Header link one/ Header link two/ header link three 
-Will try to use flex class to move items inside the container
-
-Body:
-
-First Section: 
-HTML:
-Will be using h1/div/p/image elements
-CSS:
-font change/ flex/margin/background-color & size 
-use classes to seperate sections
-
-Second:
-HTML:
-h2/Unordered list of images/p for subtext/use alt as well
-CSS:
-Use border and find out how to curve the border
-
-Third:
-HTML:
-quote text has h3? change the font size
-CSS:
-center items
-
-Fourth:
-HTML:
-???
-CSS:
-center the blue box using flex rules 
-
-
-Footer:
-same background color/size as the header 
-Use flex to center the Copyright The Odin Project
+However one thing that I will fix on this project if I wanted to keep on going with it is to practice more width and height on images resizes since each time I would resize the image the page would be unresponsive and the divs would be messed up. As this regularly happened to me when I was working on the second section of the page.
