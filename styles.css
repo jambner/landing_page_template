@@ -39,15 +39,17 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh; 
+    margin: 0;
 }
 
 .main {
     flex-grow: 1; /*stretches the page out when needed to*/
-    background-color: rgb(247, 242, 242);
+    width: 100%;
 }
 
 
 .section{
+    width:100%;
     border-top:3px #202020;
     border-bottom:3px #202020;
     min-height: 200px;
@@ -88,8 +90,8 @@ button:active {
 /*setup stop*/
 
 .section#about{
-    margin-bottom: 1em;
     min-height: 200px;
+    border:0px;
     background-color: #000000;
     color: #f9faf8;
 }
@@ -134,10 +136,9 @@ h2 {
 
 
 .inside-column#headtitle {
-    font-size: 50px;
+    font-size: 150px;
     text-align: center;
-    margin: 100px;
-    
+    padding-top: 10px;
     
 
                                                 
@@ -159,6 +160,7 @@ p {
     gap: 20px;
     padding: 50px;    
 }
+
 
 
 
