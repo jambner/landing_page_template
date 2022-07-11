@@ -1,40 +1,22 @@
 # landing_page_template
-A Landing Page Template using HTML &amp; CSS
+A small website using HTML and CSS of a friend.
 
-The page will conist of 5 sections:
+It was a really fun project even though it took a few days for me to get through it. This reminded me to plan out the layout of the website before anything else either using gimp or paint.net and use borders color to seperate your divs! Using the border colors helped me visually what was going on in the website and helped me what css tools are used for like:
 
-Header:
-Has Header Logo/ Header link one/ Header link two/ header link three 
-Will try to use flex class to move items inside the container
+-Margin -Padding -Flex rules
 
-Body:
+However one thing that I will fix on this project if I wanted to keep on going with it is to practice more width and height on images resizes since each time I would resize the image the page would be unresponsive and the divs would be messed up. As this regularly happened to me when I was working on the second section of the page.
 
-First Section: 
-HTML:
-Will be using h1/div/p/image elements
-CSS:
-font change/ flex/margin/background-color & size 
-use classes to seperate sections
+Sources:
 
-Second:
-HTML:
-h2/Unordered list of images/p for subtext/use alt as well
-CSS:
-Use border and find out how to curve the border
+First Section Background: https://twitter.com/oreru_7/status/1514628363767660545
 
-Third:
-HTML:
-quote text has h3? change the font size
-CSS:
-center items
+Third Section Background: https://twitter.com/oreru_7/status/1523304262192680962?s=20&t=aIfbSnPF2BaBo6BpEl9RYg
 
-Fourth:
-HTML:
-???
-CSS:
-center the blue box using flex rules 
+Fan Art: https://twitter.com/oreru_7/status/1542789417387323393
 
+Timelapses: https://twitter.com/oreru_7/status/1516321320036085766
 
-Footer:
-same background color/size as the header 
-Use flex to center the Copyright The Odin Project
+Commissions: https://twitter.com/oreru_7/status/1539942211768717312
+
+Sketches: https://twitter.com/oreru_7/status/1540674992857579520
